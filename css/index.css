@@ -1,0 +1,389 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.big-div {
+    width: 7.5rem;
+    margin: 0 auto;
+    background-color: #f7f7f8;
+}
+
+.logoCukeBg {
+    background: #fff;
+}
+
+.logo {
+    position: fixed;
+    top: 0;
+    width: 7.2rem;
+    height: 1rem;
+    line-height: 1rem;
+    text-align: left;
+    padding-left: .32rem;
+    z-index: 1111;
+}
+
+
+
+.logo img {
+    height: .64rem;
+    position: absolute;
+    top: .14rem;
+}
+
+.company-wrap {
+    width: 7.5rem;
+    padding-top: 1rem;
+}
+
+.old {
+    margin: 0;
+    padding: 0;
+}
+
+.pub-swiper {
+    position: relative;
+}
+
+.van-swipe {
+    position: relative;
+    overflow: hidden;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+.pubDown-wrap {
+    /* padding-top: .4rem; */
+}
+
+.pubDown-wrap .down-bg ul li a,
+.pubDown-wrap .down-bg ul li label {
+    display: block;
+    width: 6.54rem;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.pubDown-wrap .down-bg {
+    width: 6.68rem;
+}
+
+.pubDown-wrap .bgCuke {
+    background-color: #fff;
+}
+
+.pubDown-wrap .down-bg ul {
+    width: 7rem;
+    border-radius: 8px;
+    overflow: hidden;
+    margin-left: .24rem;
+	list-style:none;
+}
+
+.pubDown-wrap .down-bg ul li:first-child {
+    margin-top: .4rem;
+}
+
+.pubDown-wrap .down-bg ul li a.bgCuke {
+    background-color: #fed900;
+    color: #664a17;
+}
+
+.pubDown-wrap .down-bg ul li:first-child a {
+    margin-top: 0;
+}
+
+.pubDown-wrap .down-bg ul li a {
+    margin: .4rem auto .26rem;
+    width: 6.54rem;
+    height: 1rem;
+    line-height: 1rem;
+    border-radius: .5rem;
+    font-family: PingFangSC-Regular;
+    font-size: .36rem;
+    letter-spacing: 0;
+    text-align: center;
+}
+
+.pubDown-wrap .down-bg ul li label {
+    width: 6.48rem;
+    font-family: PingFangSC-Regular;
+    font-size: .24rem;
+    color: #333;
+    text-align: left;
+    margin-bottom: .24rem;
+}
+
+.pubDown-wrap .down-bg ul li label .step {
+    display: inline-block;
+    width: .36rem;
+    height: .36rem;
+    font-size: .24rem;
+    border-radius: 50%;
+    text-align: center;
+    margin-right: .2rem;
+}
+
+.pubDown-wrap .bgCuke label .step {
+    color: #40320d;
+    background-color: #fed900;
+}
+
+.pubDown-wrap .down-bg ul li:first-child .warnAndDu {
+    font-family: PingFangSC-Regular;
+    font-size: .24rem;
+    color: #5288ff;
+    letter-spacing: 0;
+    text-align: left;
+    text-decoration: underline;
+}
+
+.pubDown-wrap .down-bg ul li:first-child .warnAndDu {
+    font-family: PingFangSC-Regular;
+    font-size: .24rem;
+    color: #5288ff;
+    letter-spacing: 0;
+    text-align: left;
+    text-decoration: underline;
+}
+
+.pubDown-wrap .down-bg ul li a.bgCuke {
+    background-color: #fed900;
+    color: #664a17;
+}
+
+.pubJoin-wrap {
+    width: 6.9rem;
+    border-bottom-right-radius: .6rem;
+    padding: .36rem 0;
+    margin: 0 auto;
+}
+
+dl.notices dt title {
+    display: block;
+    margin: 0 auto;
+    width: 5.08rem;
+    height: .34rem;
+    background: url('../img/tesu_title.png') 0 0/contain no-repeat;
+}
+
+dl.notices dt p {
+    width: 6.28rem;
+    height: .74rem;
+    margin: .28rem auto .4rem;
+    /* background: url("./img/tesu.png") 0 0/contain no-repeat; */
+    font-size: .24rem;
+    font-weight: bold;
+    color: #a4a4a4;
+}
+
+dl.notices dd {
+    border-radius: .15rem;
+    margin-left: 0;
+}
+
+dl.notices dd>div {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    margin-bottom: .4rem;
+    height: 1rem;
+}
+
+dl.notices dd>div>p {
+    display: inline-block;
+    height: 1rem;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    margin: 0;
+}
+
+dl.notices dd>div.pt span {
+    background: url("../img/potato.jpg") 0 0/contain no-repeat;
+}
+
+dl.notices dd>div>p span {
+    display: inline-block;
+    width: .88rem;
+    height: .88rem;
+    margin-right: .16rem;
+}
+
+dl.notices dd>div label {
+    font-family: PingFangSC-Regular;
+    font-size: .28rem;
+    color: #444;
+    text-align: left;
+}
+
+dl.notices dd>div>a {
+    display: inline-block;
+    width: 1.32rem;
+    height: .58rem;
+    line-height: .58rem;
+    text-align: center;
+    color: #333;
+    border: 1px solid #333;
+    border-radius: .34rem;
+    font-size: .28rem;
+    text-decoration: none;
+}
+
+dl.notices dd>div:last-child {
+    margin-bottom: 0;
+    position: relative;
+}
+
+dl.notices dd>div.github span {
+    background: url("../img/git.jpg") 0 0/contain no-repeat;
+}
+
+dl.notices dd>div.email span {
+    background: url("../img/meail.jpg") 0 0/contain no-repeat;
+}
+
+dl.notices dd>div label>label {
+    display: block;
+    font-family: PingFangSC-Regular;
+    font-size: .24rem;
+    color: #999;
+    max-width: 2.5rem;
+    word-break: break-word;
+}
+
+/* 轮播插件 start */
+.swiper-container {
+    width: 7.5rem;
+    height: 2.22rem;
+}
+
+.swiper-slide {
+    width: 100%;
+    height: 2.22rem;
+}
+
+
+.swiper-container .swiper-wrapper .swiper-slide .lunbo_img {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-pagination {
+    width: 7.5rem;
+    height: .4rem;
+    /* background:url() 0 0/cover no-repeat; */
+    position: absolute;
+    bottom: .8rem;
+    z-index: 2;
+}
+
+.swiper-pagination-bullet {
+    margin: 0 .02rem;
+}
+
+.swiper-pagination-bullet-active {
+    background: #fed900;
+}
+
+/* 轮播插件 end */
+
+
+/* 下载弹窗 start */
+.pub-popup {
+    display: none;
+}
+
+.van-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .7);
+}
+
+.van-popup {
+    position: fixed;
+    max-height: 100%;
+    overflow-y: auto;
+    background-color: #fff;
+    -webkit-transition: -webkit-transform .3s ease-out;
+    transition: -webkit-transform .3s ease-out;
+    transition: transform .3s ease-out;
+    transition: transform .3s ease-out, -webkit-transform .3s ease-out;
+    -webkit-overflow-scrolling: touch;
+}
+
+.van-popup--center {
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate3d(-50%, -50%, 0);
+    transform: translate3d(-50%, -50%, 0);
+}
+
+.pub-popup .down-home .van-popup {
+    width: 5.6rem;
+    height: 7.56rem;
+}
+
+.pub-popup .down-home dl {
+    margin: 0;
+}
+
+.pub-popup .down-home dl dt {
+    height: 4.88rem;
+}
+
+.pub-popup .down-home dl dt img {
+    width: 100%;
+}
+
+.pub-popup .down-home dl dd {
+    width: 4.92rem;
+    margin: 0 auto;
+}
+
+.pub-popup .down-home dl dd p {
+    margin: .4rem 0 .32rem;
+    font-family: PingFangSC-Regular;
+    font-size: .24rem;
+    color: #8c846e;
+    text-align: justify;
+}
+
+.pub-popup .down-home dl dd .bgCuke {
+    background-color: #ffea6d;
+}
+
+.pub-popup .down-home dl dd a.btnOK {
+    display: block;
+    width: 4.8rem;
+    height: .82rem;
+    line-height: .82rem;
+    border-radius: .42rem;
+    font-family: PingFangSC-Regular;
+    font-size: .32rem;
+    color: #40320d;
+    text-align: center;
+}
+
+/* 下载弹窗 end */
